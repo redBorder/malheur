@@ -567,7 +567,7 @@ uninstall-am: uninstall-binPROGRAMS
 
 
 clean-local:
-	rm -f 		malheur.h
+#	rm -f 		malheur.h
 
 beautify:               $(libmalheur_a_SOURCES) $(malheur_SOURCES)
 			gindent -i4 -kr -l77 -lc77 --no-tabs -cs \
